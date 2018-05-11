@@ -1280,3 +1280,96 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+
+
+Started GET "/" for ::1 at 2018-05-11 04:33:20 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 24ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-05-11 04:33:39 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-11 04:36:59 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-05-11 04:37:03 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-05-11 04:37:42 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-05-11 04:41:21 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=MGF3UJT4M45HI0VBYAPRIEPC2NOULAQNUIH5IULF3KTSY0NC&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=O3IAG2QSRNV022TKDTGC2TXBJLZAVVDPZKOPYFXB0R5Q40TH" for ::1 at 2018-05-11 04:41:25 -0400
+
+SyntaxError (/Users/Kim/Documents/Learn/web-auth-readme-v-000/app/controllers/sessions_controller.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  skip_before_action :authenticate_user, only :create
+                                               ^):
+  app/controllers/sessions_controller.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+
+
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (139.7ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.3ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (142.7ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (316.9ms)
+
+
+Started GET "/friends" for ::1 at 2018-05-11 04:46:21 -0400
+Processing by SearchesController#friends as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=MGF3UJT4M45HI0VBYAPRIEPC2NOULAQNUIH5IULF3KTSY0NC&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=GQNYC3M1K3C4DCL2BXULPN10VLL4FSZWR2ZYPRIRGYGN1PUV" for ::1 at 2018-05-11 04:46:24 -0400
+
+SyntaxError (/Users/Kim/Documents/Learn/web-auth-readme-v-000/app/controllers/sessions_controller.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  skip_before_action :authenticate_user, only :create
+                                               ^):
+  app/controllers/sessions_controller.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+
+
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (133.3ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (125.3ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Kim/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (271.1ms)
